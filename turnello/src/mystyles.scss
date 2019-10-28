@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Niramit:400,700&display=swap');
+
+// COLORS
+$primary: #00d1b2;
+$info: #209CEE;
+$success: #59c3ec; //LOGO COLOR
+$warning: #9ec426; //LOGO COLOR
+$danger: #2c2662; //LOGO COLOR
+$light: #F5F5F5;
+$white: #fff;
+$dark: #363636;
+
+//LOGO COLOR
+$light-blue: #59c3ec;
+$green: #9ec426;
+$blue: #2c2662;
+
+// TEXT
+$text: #000;
+$link: #59c3ec;
+$body-family: "Niramit", "sans-serif";
+$title-family: false;
+$button-family: false;
+
+// BREAKPOINTS
+$gap: 32px;
+$tablet: 769px;
+$desktop: 960px + (2*$gap);
+$widescreen: 1152px + (2*$gap);
+$fullhd: 1344px + (2*$gap);
+$widescreen-enabled: true;
+$fullhd-enabled: false;
+
+// LAYOUT
+$section-padding: 3rem 1.5rem;
+$section-padding-medium: 6rem 1.5rem;
+$section-padding-large: 9rem 1.5rem;
+
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma-extensions/bulma-pricingtable/dist/css/bulma-pricingtable.sass";
+@import '../node_modules/aos/dist/aos.css'; 
